@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+ 
+body {
+  background-color: black; /* beige or light taupe */
+
+}
+
+.submit {
+  border-bottom: 2px solid #28a745;
+  transition: border-bottom 0.3s ease;
+  background-color: green}
+
+.form-group{
+  width: 50%;
+}
+.about-class{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color:black;
+  /* margin: 40px ; */
+
+  /* line-break:strict; */
+  border: 2px solid blueviolet;
+  color:white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  /* margin-top: 50px; */ 
+}
+.typewriter.me{
+  text-align: center;
+}
+/* Add this CSS to your component or import it from an external stylesheet */
+
+.footer {
+  /* background-color: #333; Set your preferred background color */
+  color: purple; /* Set your preferred text color */
+  /* background-color: purple; */
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-copywright {
+  text-align: center;
+}
+
+.footer-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+.footer.h3{
+  text-align: center;
+
+}
+.footer-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  /* color: purple; */
+}
+
+.social-icons {
+  margin-right: 10px;
+  font-size: 1.5em;
+}
+
+/* Optional: Add media queries for responsiveness */
+@media (max-width: 768px) {
+  .footer-body {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .social-icons {
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+}
