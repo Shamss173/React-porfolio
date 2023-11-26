@@ -74,46 +74,48 @@ body {
 }
 /* Add this CSS to your component or import it from an external stylesheet */
 
-.footer {
-  /* background-color: #333; Set your preferred background color */
+/* .footer { */
+  /* background-color: #333; Set your preferred background color
   color: purple; /* Set your preferred text color */
   /* background-color: purple; */
-  padding: 20px;
+  /* padding: 20px;
   position: relative;
   bottom: 0;
-  width: 100%;
-}
-
+  width: 100%; */
+/* }  */
+/* 
 .footer-copywright {
   text-align: center;
-}
-
+} */
+ 
 .footer-body {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   text-align: center;
-}
-.footer.h3{
+} 
+  .footer.h3{
   text-align: center;
+ 
+}  
+ 
 
-}
-.footer-icons {
+ .footer-icons {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
-  /* color: purple; */
-}
-
-.social-icons {
+  
+ }
+ 
+ .social-icons {
   margin-right: 10px;
-  font-size: 1.5em;
-}
+  font-size: 1.5em; 
+ } 
 
 /* Optional: Add media queries for responsiveness */
-@media (max-width: 768px) {
+ @media (max-width: 768px) {
   .footer-body {
     flex-direction: column;
     text-align: center;
@@ -123,4 +125,14 @@ body {
     margin-bottom: 10px;
     margin-right: 0;
   }
+} 
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: black; /* Set your desired background color */
+  color: white; /* Set your desired text color */
+  padding: 10px;
+  text-align: center;
 }

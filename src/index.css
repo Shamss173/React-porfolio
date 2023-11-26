@@ -17,7 +17,10 @@ code {
   border-bottom: 2px solid #28a745;
   transition: border-bottom 0.3s ease;
 }
-  
+ /* .nav-item-hover:hover {
+  border-bottom: 2px solid #28a745;
+  transition: border-bottom 0.3s ease;
+}  */
 
 .submit {
   border-bottom: 2px solid #28a745;

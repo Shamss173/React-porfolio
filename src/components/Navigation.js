@@ -2,13 +2,15 @@ import React from 'react';
 import { Navbar, Nav, Container, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
+
 function Navigation() {
   return (
     <>
 
 <Navbar bg="dark" data-bs-theme="dark">
 <Container>
-        <Nav className="me-auto mx-auto d-flex">
+<Navbar.Brand as={Link} to="/" ></Navbar.Brand>
+        <Nav className="me-auto mx-auto">
           <Nav.Link as={Link} to="/" className="nav-item-hover">
             Home
           </Nav.Link>

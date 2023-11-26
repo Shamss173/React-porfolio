@@ -17,7 +17,7 @@ function App() {
   return (
     <>
     <div style={{backgroundColor:"#FCF6F5"}}>
-      {/* <Header/> */}
+      
     <Navigation/>
     <Switch>
       <Route exact path='/' component={Home}/>

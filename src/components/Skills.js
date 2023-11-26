@@ -1,39 +1,33 @@
-
 import React from 'react';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 
-
-const Skills = ()=>{
-
+const Skills = () => {
   return (
-    <> 
-    <div className='skiil-div' >
-    <div >
-        <ProgressBar variant="success" now={80} label={"Object-Oriented Programming"} />
-        </div>    
-      <div >
+    <>
+      <div className='container mt-4'>
+        <div className='mb-3'>
+          <ProgressBar variant="success" now={90} label={"Object-Oriented Programming"} />
+        </div>
 
-      <ProgressBar variant="info" now={70} label={"Java"} />
-      </div>
-      
-      <div>
-      <ProgressBar variant="warning" now={70} label={"C++"} />
-      </div>
-      <div>
+        <div className='mb-3'>
+          <ProgressBar variant="info" now={80} label={"Java"} />
+        </div>
 
-      <ProgressBar variant="danger" now={75}  label={"JavaScript"}/>
-      </div>
-      <div>
-      <ProgressBar variant="primary" now={20  }  label={"Reactjs"}/>
+        <div className='mb-3'>
+          <ProgressBar variant="warning" now={80} label={"C++"} />
+        </div>
 
+        <div className='mb-3'>
+          <ProgressBar variant="danger" now={75} label={"JavaScript"} />
+        </div>
+
+        <div className='mb-3'>
+          <ProgressBar variant="primary" now={50} label={"Reactjs"} />
+        </div>
+        {/* Add more ProgressBar components as needed */}
       </div>
-    </div>
-      
-     
     </>
-    
   );
-  ;
 }
 
 export default Skills;
