@@ -33,6 +33,18 @@ export default function About() {
          or unraveling the complexities of database management, 
         I approach each subject with enthusiasm and a thirst for knowledge.
       </div>
+        <script>
+window.embeddedChatbotConfig = {
+chatbotId: "yZ79phiCArRhiVeyz4_AL",
+domain: "www.chatbase.co"
+}
+</script>
+<script
+src="https://www.chatbase.co/embed.min.js"
+chatbotId="yZ79phiCArRhiVeyz4_AL"
+domain="www.chatbase.co"
+defer>
+</script>
     </div>
     </>
   );
